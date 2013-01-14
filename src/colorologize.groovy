@@ -1,17 +1,12 @@
-import ar.com.hjg.pngj.FileHelper
-import ar.com.hjg.pngj.ImageLine
-import ar.com.hjg.pngj.ImageLineHelper
-import ar.com.hjg.pngj.PngReader
-import ar.com.hjg.pngj.PngWriter
-import ar.com.hjg.pngj.chunks.ChunkCopyBehaviour
-import ar.com.hjg.pngj.chunks.PngChunkPLTE
-import groovy.transform.Canonical
-
 // Given a source image and a new "base color," create a new image that is
 // the analog of the original image but in the new color.  For example:
 // - Given a PNG of a logo that is in shades of green, and
 // - Given a new "base color" of orange,
 // - Create a new file that is the same logo in various shades of orange
+
+import ar.com.hjg.pngj.*
+import ar.com.hjg.pngj.chunks.ChunkCopyBehaviour
+import groovy.transform.Canonical
 
 def inputFilename = "c:/projects/colors/green_A.png"
 //def inputFilename = "c:/projects/colors/logo_blue.png"
