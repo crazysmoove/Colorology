@@ -8,9 +8,9 @@ import ar.com.hjg.pngj.*
 import ar.com.hjg.pngj.chunks.ChunkCopyBehaviour
 import groovy.transform.Canonical
 
-def inputFilename = "c:/projects/colors/green_A.png"
+def inputFilename = "c:/Google Drive/projects/colors/green_A.png"
 //def inputFilename = "c:/projects/colors/logo_blue.png"
-def outputFilename = "c:/projects/colors/out-test.png"
+def outputFilename = "c:/Google Drive/projects/colors/out-test.png"
 def oldBaseColor = "#8FC051"
 //def oldBaseColor = "#5C8DD6"
 def newBaseColor = "#FF7F00"
